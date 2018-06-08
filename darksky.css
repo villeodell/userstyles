@@ -1,0 +1,18 @@
+
+/* -- for use with darksky.net -- */
+
+/* hide extraneous elements */
+nav, #header, #map-container, #timeMachine, #footer { 
+  display: none !important;
+}
+  
+/* enlarge current details slightly */
+#currentDetails {
+  font-size: 18px;
+}
+
+/* remove gap before forecast summary */
+body.forecast #week > .summary {
+  margin: 0;
+}
+
