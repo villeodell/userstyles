@@ -1,0 +1,26 @@
+body > *:not(main) {
+    display: none;
+}
+
+body > main > div > *:not(.container) {
+    display: none;
+}
+
+body > main > div > div > div > div > *:not(.js-daily-dose) {
+    display: none;
+}
+
+:-moz-any(div) {
+    background: none;
+    border: 0;
+}
+
+.js-daily-dose {
+    padding: 2% 0;
+}
+
+.tfs-ad,
+.card-footer,
+.cc-window {
+    display: none;
+}
